@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real ps5
+    real p5
+    real valor_dolar
+    real preco_dolar
+    real dinheiro_real
+    escreva("Escreva a contação do dolar do dia: \n")
+    leia(preco_dolar)
+    escreva("Digite quantos valor em real você tem para converter em dolar: \n")
+    leia(dinheiro_real)
+    valor_dolar = dinheiro_real / preco_dolar
+    escreva("O valor convertido em dolar é : "+ valor_dolar,"\n")
+    escreva("digite o valor do ps5 de hoje: \n")
+    leia(ps5)
+    p5 = ps5 - valor_dolar
+    escreva("O valor em dolar que falta para comprar o p5 é: "+ p5,"\n")
+  }
+}
