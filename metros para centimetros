@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    real multipli
+    real metros
+    escreva("diga um tamanho de um metros para eu converte em centimetros: \n")
+    leia(metros)
+    multipli = metros * 100
+    escreva("O tamanho dos metros convertido em centimetro é: \n"+ multipli)
+  }
+}
