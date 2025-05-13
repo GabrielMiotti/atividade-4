@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real calculo_multa
+    real calculo
+    real peso_de_peixes
+    escreva("Quantos quilos você pescou?:  \n")
+    leia(peso_de_peixes)
+    se(peso_de_peixes >= 50){
+    calculo = 50 - peso_de_peixes
+    calculo_multa = calculo * 4.50
+    escreva("O calculo da multa é de: \n"+ calculo_multa)
+    }
+    senao{escreva("não tem multa")}
+  }
+}
