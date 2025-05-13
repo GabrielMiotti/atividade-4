@@ -1,1 +1,23 @@
+programa {
+  funcao inicio() {
+    real media
+    real soma
+    real b1
+    real b2 
+    real b3
+    real b4
+    escreva("digite a sua nota no primeiro bimestre: ")
+    leia(b1)
+    escreva("digite a sua nota no segundo bimestre: ")
+    leia(b2)
+    escreva("digite a sua nota no terceiro bimestre: ")
+    leia(b3)
+    escreva("digite a sua nota no quarto bimestre: ")
+    leia(b4)
+    soma = b1 + b2 + b3 + b4
+    media = soma / 4
+    escreva("O total da soma das suas nota de todos os bimestre foi de :"+ soma )
+    escreva(" Essa foi a media da nota de todos os bimestres: "+ media)
 
+  }
+}
