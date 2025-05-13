@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {                                 
+    real dobro
+    real calculo_centimetro
+    real area
+    real largura
+    real comprimento
+    escreva("Digite o comprimento do campo maracana ")
+    leia(comprimento)
+    escreva("Digite o largura do campo maracana ")
+    leia(largura)
+    area = largura * comprimento
+    escreva("a largura e o comprimento do campo do maracana é: "+ area," Mts \n")
+    calculo_centimetro = area * 100
+    escreva(" os metros do campo maracana convertido por centimetro é: "+ calculo_centimetro," cm \n")
+    dobro = area * 2
+    escreva("O dobro da largura do campo do maraca é: "+ dobro, " Mts \n")
